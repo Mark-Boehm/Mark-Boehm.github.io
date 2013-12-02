@@ -1,0 +1,198 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1872" measuredH="1500" mockupW="1772" mockupH="1400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="100" y="100" w="1366" h="1400" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::FieldSet" x="100" y="105" w="1350" h="199" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::FieldSet" x="100" y="305" w="1350" h="1120" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Content</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::FieldSet" x="100" y="1425" w="1350" h="75" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::ButtonBar" x="450" y="180" w="444" h="50" measuredW="444" measuredH="42" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <selectedIndex>1</selectedIndex>
+        <size>28</size>
+        <text>Home%2C%20Benefits%2C%20Store%2C%20Support</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="150" y="145" w="260" h="120" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Bright%20Hearts%20Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="1300" y="180" w="100" h="50" measuredW="90" measuredH="36" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>28</size>
+        <state>up</state>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="1100" y="180" w="190" h="50" measuredW="175" measuredH="36" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Get%20Started</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="835" y="558" w="430" h="322" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <state>up</state>
+        <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20vix%20liber%20graeco%20imperdiet%20et%2C%20ius%20harum%20consul%20no.%20Ut%20minimum%20omnesque%20omittantur%20usu.%20Vel%20cetero%20scripserit%20ea%2C%20eius%20veritus%20signiferumque%20ad%20mea%2C%20tation%20recteque%20pro%20an.%20Ius%20esse%20mentitum%20ut%2C%20ex%20dicit%20vivendum%20perpetua%20sed.%20Ad%20est%20dicta%20putent%20aliquip%2C%20illud%20nostrum%20eu%20per%2C%20sea%20ea%20dicat%20quando%20lucilius.%20Has%20ad%20malorum%20contentiones%2C%20te%20nam%20augue%20congue%20graeci%2C%20nam%20ex%20quidam%20signiferumque.%0A%20%0AEx%20movet%20simul%20suavitate%20mea%2C%20minim%20consetetur%20constituam%20sit%20cu%2C%20usu%20nihil%20consulatu%20definitiones%20et.%20Alia%20adipisci%20intellegat%20ne%20est.%20Suas%20erant%20phaedrum%20pro%20ei.%20An%20mel%20harum%20dolorum%20convenire%2C%20nam%20ei%20efficiendi%20liberavisse.%20Eruditi%20probatus%20ea%20eum%2C%20eum%20sint%20laoreet%20mediocrem%20ei.%20Ullum%20patrioque%20et%20eum%2C%20ut%20cum%20choro%20deseruisse%2C%20in%20sea%20assum%20laudem%20apeirian.</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Title" x="835" y="500" w="-1" h="-1" measuredW="180" measuredH="43" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>0</color>
+        <size>40</size>
+        <text>Heading%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::VSplitter" x="101" y="905" w="1346" h="-1" measuredW="100" measuredH="11" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="1334" y="1449" w="-1" h="-1" measuredW="66" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Privacy</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Link" x="1215" y="1449" w="-1" h="-1" measuredW="96" measuredH="26" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Disclaimer</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::MultilineButton" x="1215" y="370" w="185" h="100" measuredW="138" measuredH="86" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Buy%20Now%0A%24%23%23%23.%23%23</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="285" y="500" w="500" h="380" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Paragraph" x="285" y="1013" w="430" h="322" measuredW="200" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <state>up</state>
+        <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20vix%20liber%20graeco%20imperdiet%20et%2C%20ius%20harum%20consul%20no.%20Ut%20minimum%20omnesque%20omittantur%20usu.%20Vel%20cetero%20scripserit%20ea%2C%20eius%20veritus%20signiferumque%20ad%20mea%2C%20tation%20recteque%20pro%20an.%20Ius%20esse%20mentitum%20ut%2C%20ex%20dicit%20vivendum%20perpetua%20sed.%20Ad%20est%20dicta%20putent%20aliquip%2C%20illud%20nostrum%20eu%20per%2C%20sea%20ea%20dicat%20quando%20lucilius.%20Has%20ad%20malorum%20contentiones%2C%20te%20nam%20augue%20congue%20graeci%2C%20nam%20ex%20quidam%20signiferumque.%0A%20%0AEx%20movet%20simul%20suavitate%20mea%2C%20minim%20consetetur%20constituam%20sit%20cu%2C%20usu%20nihil%20consulatu%20definitiones%20et.%20Alia%20adipisci%20intellegat%20ne%20est.%20Suas%20erant%20phaedrum%20pro%20ei.%20An%20mel%20harum%20dolorum%20convenire%2C%20nam%20ei%20efficiendi%20liberavisse.%20Eruditi%20probatus%20ea%20eum%2C%20eum%20sint%20laoreet%20mediocrem%20ei.%20Ullum%20patrioque%20et%20eum%2C%20ut%20cum%20choro%20deseruisse%2C%20in%20sea%20assum%20laudem%20apeirian.</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Title" x="525" y="955" w="-1" h="-1" measuredW="190" measuredH="43" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>0</color>
+        <size>40</size>
+        <text>Heading%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="765" y="955" w="500" h="380" measuredW="77" measuredH="79" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Title" x="285" y="370" w="-1" h="-1" measuredW="224" measuredH="63" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>0</color>
+        <size>60</size>
+        <text>Benefits</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::CallOut" x="1511" y="115" w="38" h="40" measuredW="39" measuredH="39" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>16770457</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="1585" y="117" w="-1" h="-1" measuredW="174" measuredH="36" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Fixed%20position</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::CallOut" x="1511" y="165" w="38" h="40" measuredW="36" measuredH="43" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>15374745</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="1585" y="167" w="-1" h="-1" measuredW="287" measuredH="36" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Scroll%20through%20benefits</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::PointyButton" x="1335" y="597" w="36" h="-1" measuredW="19" measuredH="47" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <direction>right</direction>
+        <italic>false</italic>
+        <menuIcon>false</menuIcon>
+        <size>40</size>
+        <state>up</state>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::PointyButton" x="164" y="597" w="36" h="-1" measuredW="19" measuredH="47" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <direction>left</direction>
+        <italic>false</italic>
+        <menuIcon>false</menuIcon>
+        <size>40</size>
+        <state>up</state>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::CallOut" x="1348" y="582" w="38" h="40" measuredW="38" measuredH="40" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>16770457</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Arrow" x="755" y="1335" w="10" h="100" measuredW="150" measuredH="100" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>true</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::VSplitter" x="100" y="1359" w="1346" h="-1" measuredW="100" measuredH="11" zOrder="27" locked="false" isInGroup="-1"/>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Paragraph" x="285" y="1344" w="430" h="72" measuredW="200" measuredH="80" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>72</size>
+        <state>up</state>
+        <text>...</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::CallOut" x="773" y="1376" w="38" h="40" measuredW="39" measuredH="39" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>15374745</color>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

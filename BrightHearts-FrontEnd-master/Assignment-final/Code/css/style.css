@@ -1,0 +1,629 @@
+/* Apply a natural box layout model to all elements */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+ }
+
+
+/*Main element styles*/
+
+body {
+	box-shadow: inset 0 0 0 rgba(0,0,0,0.4);
+  	line-height: 1.6;
+	background-color: #D9D2CA;
+	font-family: 'Muli', sans-serif;
+	font-weight: lighter;
+	color: #666;
+}
+
+p, ul, input, textarea {
+	font-size: 15px;
+	padding: 10px 0px;
+	margin: 0px;
+	list-style-type: square;
+	font-weight: lighter;
+}
+
+span {
+	font-weight: bold;
+}
+
+ul {
+	padding: 0px 0px 0px 20px;
+}	
+
+h1 {
+	letter-spacing: -0.5px;
+	font-size: 50px;
+	margin: 0px;
+}
+
+h2 {
+	letter-spacing: -0.5px;
+	font-size: 30px;
+	
+}
+
+i {
+	font-size: 120px;
+	padding: 10px 0px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #666
+}
+
+iframe {
+	box-shadow: 0px 0px 25px #aaa;
+}
+
+/*Hover effects*/
+
+a:hover {
+	-webkit-transition: box-shadow 0.4s ease-in-out, border-top 0.4 ease-in-out, background-color 0.4 ease-in-out, color 0.4 ease-in-out;
+	-moz-transition: box-shadow 0.4s ease-in-out, border-top 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    -ms-transition: box-shadow 0.4s ease-in-out, border-top 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+	transition: box-shadow 0.4s ease-in-out, border-top 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+
+/*________________________*/
+
+/*General classes*/
+
+/*Set div width*/
+
+.container {
+	width: 1080px;
+	margin: 0px auto;
+	height: auto;
+	display: block;
+}
+
+.three-quarter-width {
+	width: 810px;
+	float: left;
+}
+
+.two-third-width {
+	width: 720px;
+	float: left;
+}
+
+.half-width {
+	width: 540px;
+	float: left;
+}
+
+.third-width {
+	width: 360px;
+	float: left;
+}
+
+.quarter-width {
+	width: 270px;
+	float: left;
+}
+
+.sixth-width {
+	width: 180px;
+	float: left;
+}
+
+
+/*Set box color*/
+
+.blue {
+	background-color: #53D0F9;
+}
+
+.yellow {
+	background-color: #FFCB4E;
+}
+
+.red {
+	background-color: #FF6A4E;
+}
+
+.grey {
+	background-color: #666;
+}
+
+
+/*Reverse text out of dark background*/
+
+.reversed {
+	color: #EFEBE6;
+	text-shadow: 0px 0px 150px #aaa;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+/*Drop an element*/
+
+.bottom {
+	position: absolute;
+	bottom: 50px;
+}
+
+
+/*Make a button*/
+
+.button {
+	width: auto;
+	height: 50px;
+	display: inline-block;
+	padding: 10px 20px;
+  	font-size: 17px;
+  	color: #fff;
+  	border-radius: 5px;
+  	text-transform: uppercase;
+  	box-shadow: 0px 0px 25px #bbb;
+  	line-height: 30px;
+}
+
+.button:hover {
+	background-color: #999;
+}
+
+.button span {
+	font-family: 'Dorsa';
+	font-size: 40px;
+	vertical-align: top;
+}
+
+
+/*Page related styles*/
+
+body.home a.home-nav {
+	border-top: 8px solid #53D0F9;
+	color: #53D0F9;
+}
+
+body.benefits a.benefits-nav {
+	border-top: 8px solid #FFCB4E;
+	color: #FFCB4E;
+}
+
+body.get-started a.get-started-nav {
+	border-top: 8px solid #FF6A4E;
+	color: #FF6A4E;
+}
+
+a:hover.home-nav  {
+	border-top: 8px solid #53D0F9;
+}
+
+a:hover.benefits-nav {
+	border-top: 8px solid #FFCB4E;
+}
+
+a:hover.get-started-nav {
+	border-top: 8px solid #FF6A4E;
+}
+
+
+/*________________________*/
+
+/*Specific ids*/
+
+/*Navigation*/
+
+#nav {
+	width: 100%;
+	height: 120px;
+	box-shadow: 0px 0px 25px #A0978D;
+	background-color: #EFEBE6;
+}
+
+#logo {
+	width: 270px;
+	height: 80px;
+	position: absolute;
+	left: 50px;
+	padding: 15px;
+}
+
+#logo p {
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	line-height: 33px;
+	vertical-align: top;
+	margin-top: 5px;
+	text-shadow: 0px 0px 25px #ccc;
+
+}
+
+#page-links {
+	width: 720px;
+	margin: 0px auto;
+}
+
+#page-links a {
+	width: 130px;
+	margin: 0px 50px;
+	height: 100px;
+	padding-top: 51px;
+	float: left;
+  	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-nav, .benefits-nav, .get-started-nav {
+	border-top: 8px solid transparent;
+}
+
+#action-links {
+	padding: 4px 0px;
+	text-align: center;
+	position: absolute;
+	right: 50px;
+	display: inline-block;
+}
+
+
+/*Promo section*/
+
+#promo{
+	padding: 80px 0px 0px;
+}
+
+#promo-main {
+	padding: 80px 50px 0px;
+}
+
+#promo-left {
+	height: 350px;
+	position: relative;
+	text-align: center;
+}
+
+#promo-left img {
+	height: 350px;
+	top: 80px;
+	right: 20%;
+	position: absolute;
+	right: -80px;
+	top:0px;
+	z-index:-1;
+}
+
+.icon-wrap {
+	width: 360px;
+	text-align: center;
+
+}
+
+.icon-wrap i {
+	background-color: #444;
+	border-radius: 100%;
+	text-align: center;
+	width: 180px;
+	height: 180px;
+	line-height: 170px;
+	display: block;
+	margin: 40px auto;
+	box-shadow: 0px 0px 25px #666;
+}
+
+.icon-wrap a {
+	display: block;
+	width: 238px;
+	margin: 10px auto 60px;
+}
+
+ a:hover.underline {
+	color: #999;
+}
+
+#data-vis {
+	padding: 60px 0px;
+	position: relative;
+	background-color: #333;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	clear: both;
+}
+
+#data-vis i {
+	float: left;
+	margin: 20px 40px 0px 0px;
+	padding: 0px;
+}
+
+#chart-1 {
+	background-color: white;
+	width: 700px;
+	margin: 10px;
+}
+
+
+/*Main content*/
+
+#content {
+	width: 100%;
+	background-color: #EFEBE6;
+	overflow: auto;
+	box-shadow: 0px 0px 25px #ccc;
+}
+
+#content-1, #content-2, #content-3  {
+	display: inline-block;
+	font-size: 20px;
+	margin: 60px 0px;
+}
+
+#content-2 {
+	padding: 0px 25px;
+}
+
+#content-3 img {
+	height: 180px;
+	display: block;
+	margin: 70px auto 10px;
+}
+
+#content-1 h2, #content-2 h2, #content-3 h2 {
+	text-align: center;
+}
+
+#benefits-summary {
+	padding: 60px 0px 60px 40px;
+}
+
+#video {
+	padding: 100px 0px;
+}
+
+
+/*Footer section*/
+
+#footer {
+	background-color: #333;
+	width: 100%;
+	padding: 0px 0px 55px;
+	overflow: auto;
+	position: relative;
+}
+
+#footer img {
+	width: 320px;
+	margin: 5px 3px;
+}
+
+#faq, #contact {
+	padding: 60px 0px 10px;
+}
+
+#faq a {
+	color: #53D0F9;
+}
+
+#faq a:hover {
+	color: #fff;
+}
+
+#contact p {
+	padding-top: 0px;
+}
+
+.form {
+	width: 360px;
+}
+
+form {
+	float: left;
+}
+
+input, textarea {
+	box-shadow: 0px 0px 25px #777;
+	background-color: #EFEBE6;
+	border: none;
+	padding: 10px;
+	margin: 20px 20px 0px 0px;
+	color: #666;
+	border-radius: 3px;
+}
+
+input {
+	width: 160px;
+	float: left;
+	vertical-align: top;
+}
+
+textarea {
+	width: 340px;
+	max-width: 340px;
+	clear: both;
+	height: 100px;
+}
+
+#submit {
+	font-family: "Muli";
+	box-shadow: 0px 0px 25px #777;
+	background-color: #53D0F9;
+	border: none;
+}
+
+.checkbox input {
+    display: none;
+}
+
+.checkbox span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #EFEBE6;
+    margin: 20px 20px 20px 0px;
+    color: transparent;
+    border: 2px solid #53D0F9;
+    box-shadow: 0px 0px 25px #777;
+    border-radius: 3px;
+}
+
+.checkbox input:checked + span {
+    color: #666;
+	padding-left: 1px;
+    line-height: 18px;
+}
+
+.form p {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	width: 180px;
+}
+
+.details {
+	float: left;
+	width: 180px;
+	margin-top: 20px;
+}
+
+#footer i {
+	margin: 0px;
+	padding: 2px 0px 0px 0px;
+	color: #333;
+	font-size: 30px;
+}
+
+#social-links {
+	padding: 15px 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+/*Responsive layouts*/
+
+/* Tablet: 768px.*/
+
+/*@media only screen and (max-width: 991px) {
+	#page-links {
+		width: 70%;
+		padding: 2.5%;
+		margin: 0 12.5%;
+	}
+
+	h1 {
+		font-size: 70px;
+		letter-spacing: -5px;
+	}
+
+	#content {
+		width: 98%;
+		padding: 40px 1%;
+	}
+
+	#promo-left, #promo-right {
+		height: auto;
+	}
+
+	#promo-left img {
+		top: 150px;
+		right: 30%;
+	}
+}
+*/
+/* Mobile wide: 465px.*/
+
+/*@media only screen and (max-width: 767px) {
+	.tagline {
+		left: 90px;
+		top: -15px;
+	}
+
+	h1 {
+		font-size: 65px;
+		letter-spacing: -5px;
+	}
+
+	.nav {
+		height: auto;
+	}
+
+	#promo-left {
+		display: none;
+	}
+
+	#promo-main {
+		width: 65%;
+
+	}
+
+	#content-1, #content-2, #content-3 {
+		width: 92%;
+		padding: 40px 4%;
+		margin: 0px;
+	}
+
+	#page-links {
+		width: 90%;
+		margin: 0px 5%
+	}
+}*/
+
+
+/* Global nav adjust*/
+
+/*@media only screen and (max-width: 625px) {
+	#global-links, #nav img {
+		width: 65%;
+		margin: 5px 17.5%;
+	}*/
+
+
+/* Mobile: 320px.*/
+
+/*@media only screen and (max-width: 464px) {
+	h1 {
+		font-size: 50px;
+		letter-spacing: -4px;
+	}
+
+	#global-links {
+	  	width: 100%;
+	  	margin: 0px;
+	  	padding: 8px 0px;
+	}
+
+	#nav a {
+		width: 90%;
+		margin: 0px 5% 10px 5%;
+		padding: 8px 0px;
+	}
+
+	#promo-right {
+		display: none;
+	}
+
+	#nav p {
+		display: none;
+	}
+
+	#page-nav a {
+		width: 46%;
+		margin: 2% 1%;
+	}
+
+	#promo-main {
+		width: 95%;
+		margin: 0px 2.5%;
+	}
+}
+
+*/
